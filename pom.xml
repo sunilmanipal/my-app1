@@ -20,6 +20,11 @@
 	</pluginRepositories>
 	<build>
 		<plugins>
+	<plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.8.0</version>
+        </plugin>
+
 			<plugin>
 				<groupId>com.smartbear.soapui</groupId>
 				<artifactId>soapui-maven-plugin</artifactId>
